@@ -1,9 +1,4 @@
-
-
-
-
-
-
+//Get menu displayed on screen
 
 
 fetch("https://free-food-menus-api-production.up.railway.app/burgers")
@@ -51,7 +46,7 @@ fetch("https://free-food-menus-api-production.up.railway.app/burgers")
             setTimeout(()=>{
                 let coustomerOrder = [];
                 for (let i = 0; i < 3; i++) {
-                    let rand = Math.floor(Math.random()*60);
+                    let rand = Math.floor(Math.random()*data.length);
                     coustomerOrder.push(data[rand])
                   
                 }
