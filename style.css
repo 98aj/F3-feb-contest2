@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    background-color: #333;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    float: right;
+    margin: 15px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    margin: 15px 20px;
+}
+
+.card-img-top{
+   width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.row{
+    margin-left: 100px;
+}
+
+.card{
+    background: linear-gradient(45deg, #ffbc00, #ff0058);
+    
+}
+
+.card:hover{
+    background: linear-gradient(45deg, #03a9f4, #ff0058);
+    color: white;
+    cursor: pointer;
+}
